@@ -1,0 +1,24 @@
+.footer {
+  border-top: 1px solid var(--line-soft);
+  padding: 24px 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+}
+
+.footer__inner p {
+  margin: 0;
+  color: inherit;
+}
+
+@media (max-width: 560px) {
+  .footer__inner {
+    flex-direction: column;
+  }
+}

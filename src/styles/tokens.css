@@ -1,0 +1,47 @@
+:root {
+  /* Cor — fundo profundo de espaço, quase preto, com leve tom azulado */
+  --bg-deep: #05060c;
+  --bg-panel: #0d111f;
+  --bg-panel-raised: #141a2e;
+  --line: #232b46;
+  --line-soft: #171d33;
+
+  --text-primary: #eef0f8;
+  --text-muted: #8d93b0;
+  --text-faint: #5b6182;
+
+  /* Acento quente, reservado a estados interativos e CTAs (tom "tipo-G", como o Sol) */
+  --accent: #ffcf6b;
+  --accent-strong: #ffb73d;
+  --accent-soft: rgba(255, 207, 107, 0.14);
+
+  --success: #6bdc9c;
+  --danger: #ff6b6b;
+
+  /* Cores funcionais por classe espectral — usadas para codificar dados, não decorar */
+  --classe-o: #9bb8ff;
+  --classe-b: #b7d4ff;
+  --classe-a: #d9e6ff;
+  --classe-f: #fff4e0;
+  --classe-g: #ffd97a;
+  --classe-k: #ffb073;
+  --classe-m: #ff6b4a;
+
+  /* Tipografia */
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+
+  /* Layout */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --max-width: 1180px;
+  --header-height: 72px;
+
+  --shadow-panel: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+@media (prefers-color-scheme: light) {
+  /* O projeto é deliberadamente "espacial" em qualquer esquema do sistema; mantemos o tema escuro fixo. */
+}

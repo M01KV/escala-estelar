@@ -1,0 +1,73 @@
+.comparador__intro {
+  max-width: 62ch;
+  margin-bottom: 28px;
+}
+
+.comparador__lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.comparador__chip {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+}
+
+.comparador__chip-cor {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.comparador__chip-nome {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.comparador__chip-raio {
+  margin: 2px 0 0;
+  font-size: 0.74rem;
+  color: var(--text-muted);
+}
+
+.comparador__chip-remover {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: var(--text-faint);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.comparador__chip-remover:hover {
+  color: var(--danger);
+}
+
+.comparador__rodape-acoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 560px) {
+  .comparador__rodape-acoes {
+    flex-direction: column;
+  }
+  .comparador__rodape-acoes a,
+  .comparador__rodape-acoes button {
+    width: 100%;
+  }
+}

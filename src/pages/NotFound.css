@@ -1,0 +1,45 @@
+.not-found__conteudo {
+  max-width: 540px;
+  margin: 80px auto 0;
+  text-align: center;
+}
+
+.not-found__ponto {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--classe-m);
+  box-shadow: 0 0 18px 4px rgba(255, 107, 74, 0.5);
+  margin-bottom: 22px;
+}
+
+.not-found__conteudo h1 {
+  font-size: 1.7rem;
+  margin-bottom: 14px;
+}
+
+.not-found__conteudo p {
+  margin-bottom: 30px;
+}
+
+.not-found__conteudo code {
+  background: var(--bg-panel-raised);
+  border: 1px solid var(--line);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--text-primary);
+  font-size: 0.85em;
+}
+
+.not-found__acoes {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .not-found__acoes {
+    flex-direction: column;
+  }
+}
