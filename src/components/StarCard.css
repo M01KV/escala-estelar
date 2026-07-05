@@ -2,7 +2,6 @@
   background: var(--bg-panel);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: border-color 0.15s ease, transform 0.15s ease;
@@ -28,6 +27,7 @@
   justify-content: center;
   background: linear-gradient(180deg, var(--bg-panel-raised), var(--bg-panel));
   border-bottom: 1px solid var(--line-soft);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
 
 .star-card__esfera {
@@ -94,6 +94,7 @@
 .star-card__comparar {
   border: none;
   border-top: 1px solid var(--line-soft);
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
   background: var(--bg-panel-raised);
   color: var(--text-muted);
   padding: 11px;
